@@ -1,0 +1,416 @@
+
+.big-text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.big-text h2{
+    color: #FF0798;
+    margin-bottom: 20px;
+}
+
+.big-text .sub-container p{
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+.secondary-title{
+    font-size: 50px;
+}
+
+.large-text{
+    background: linear-gradient(180deg, #1849FF 0%, #1530C5 100%);
+    color: white;
+    text-align: center;
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    padding-bottom: 15%;
+}
+
+.large-text h2{
+    margin-bottom: 40px;
+}
+
+.large-text p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.quote{
+    padding: 20px 0;
+    position: relative;
+}
+
+.quote p{
+    font-size: 30px;
+    margin: 0 auto;
+    z-index: 2px;
+}
+
+.quote .left-q{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1px;
+}
+
+.quote .right-q{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1px;
+}
+
+.large-text span{
+    font-size: 20px;
+}
+
+.web-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 0;
+    padding-top: 50px;
+    color: #747E80;
+    
+}
+
+.sub-web-services .dogs-img{
+    margin-top: -25%;
+    width: 90%;
+}
+
+.web-services h2{
+    color: #1849FD;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.web-services p{
+    font-size: 22px;
+}
+
+.services-items{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service-item{
+    width: 28%;
+    margin-bottom: 50px;
+}
+
+.service-item img{
+    width: 80px;
+    height: 80px;
+}
+
+.service-item h5{
+    font-size: 28px;
+    font-weight: 400;
+    color: #303234;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.service-item p{
+    font-size: 18px;
+}
+
+.references{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 150px 0;
+}
+
+.references h2{
+    color: #FF0798;
+    margin-bottom: 30px;
+}
+
+.references p{
+    color: #747E80;
+    font-size: 18px;
+}
+
+.references .img-references img{
+    width: 30%;
+    min-width: 250px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.references .img-references{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.references .img-references img:hover {
+    transform: scale(1.05);
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/section-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section .overlay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 150px 0;
+    background-color: #00052AF0;
+}
+
+.sub-section-container{
+    width: 50%;
+    float: left; 
+}
+
+.sub-section{
+    background-color: white;
+    height: fit-content;
+}
+
+.sub-section-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-text{
+    padding: 80px;
+}
+
+.section-text h2{
+    margin-bottom: 40px;
+}
+
+.section-text span{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.section-text p{
+    margin-top: 40px;
+    font-size: 20px;
+    color:#747E80;
+}
+
+.process{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 150px 0;
+    background: linear-gradient(180deg, #1849FF 0%, #1530C5 100%);
+    color: white;
+}
+
+.process-text,
+.process-steps{
+    width: 50%;
+    float: left;
+}
+
+.process-text{
+    padding-right: 100px;
+    float: left;
+}
+
+.process-text h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.process-steps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step{
+    width: 45%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.step:hover h4{
+    opacity: 1;
+}
+
+.step img{
+    width: 50px;
+    height: 50px;
+}
+
+.step span{
+    width: 100%;
+    font-weight: 200;
+    font-size: 23px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.step h4{
+    font-size: 26px;
+    font-weight: 400;
+    opacity: 0.7;
+    transition: all 300ms;
+}
+
+.contact-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+    background: black;
+    color: white;
+}
+
+.contact-us .contact-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.contact-container h4{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.contact-btn{
+    background: #FF0798;
+    padding: 10px 30px;
+}
+
+.contact-btn:hover{
+    background: #880652;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.sub-team h3{
+    font-size: 60px;
+    color: #1849FF;
+    margin-bottom: 40px;
+}
+
+.sub-team p{
+    color: #747E80;
+}
+
+.team-items{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team-item{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-item .role{
+    color: #FF0798;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.team-item .name{
+    color: #200041;
+    font-size: 22px;
+}
+
+.fq{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/fq-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.overlay-fq{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 150px 0;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(24, 73, 255, 0.8) 0%, rgba(21, 48, 197, 0.8) 100%);
+}
+
+.fq-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fq-container h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fq-items{
+    width: 50%;
+    color: black;
+}
+
+.fq-item{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 7px;
+}
+
+.fq-item .logo{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.fq-item h3{
+    font-weight: 400;
+}
+
+.fq-item p{
+    color: #494B4E;
+    font-size: 15px;
+}

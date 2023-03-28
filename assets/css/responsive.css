@@ -1,0 +1,439 @@
+/* *{
+    outline: 1px solid red !important;
+} */
+
+.btn-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1500px){
+
+    .sub-container,
+    .header-container{
+        width: 95%;
+    }
+ 
+    .menu-container .menu ul li {
+        margin-left: 40px;
+    }
+
+    .sub-home .text {
+        padding-right: 20px;
+    }
+
+    .secondary-title {
+        font-size: 30px;
+    }
+
+    .section-text h2 {
+        margin-bottom: 20px;
+    }
+
+    .section-text span {
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .section-text p {
+        margin-top: 20px;
+        font-size: 15px;
+        color: #747E80;
+    }
+
+    .section-text {
+        padding: 50px;
+    }
+
+    .team-item img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+
+    .menu-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        top: -100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        border-top: 2px solid black;
+        transition: all 600ms;
+    }
+
+    .active-menu{
+        left: 0;
+        top: 100px;
+        z-index: 10000;
+    }
+
+   
+    .menu-container nav{
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .menu-container nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu-container .menu ul li {
+        margin-left: 0px;
+        width: 150%;
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .menu-container .seo-btn {
+        margin-top: 50px;
+    }
+
+    .menu-container .menu {
+        margin-right: 0px;
+    }
+
+    .sub-home{
+        flex-wrap: wrap;
+    }
+
+    .home-features .feature-line {
+        margin-right: 10px;
+    }
+
+    .sub-home .text {
+        padding-right: 0px;
+    }
+
+    .links-media a {
+        margin-right: 0px;
+    }
+
+    .big-text .sub-container p {
+        font-size: 19px;
+    }
+
+    .large-text p {
+        font-size: 17px;
+    }
+
+    .sub-home .text .sub-p {
+        padding-right: 0px;
+    }
+
+    .sub-home-container{
+        width: 100%;
+    }
+
+    .sub-home .text{
+        text-align: center;
+    }
+
+    .sub-home .text .sub-p {
+        margin: 40px 0;
+        color: #dad6d6;
+    }
+
+    .home-features {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home-contact{
+        justify-content: center;
+    }
+
+    .home-msg{
+        width: 100%;
+    }
+
+    .home-contact-btn {
+        margin: 10px 0px;
+    }
+
+    .schedule {
+      justify-content: center;
+    }
+
+    .badges{
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .badge{
+        margin: 0;
+    }
+
+    .login-container .login-title {
+        font-size: 20px;
+    }
+
+    .login-container p {
+        font-size: 20px;
+    }
+
+    .btn-menu{
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .login-container form input[type="submit"] {
+        font-size: 19px;
+    }
+
+    .secondary-title {
+        font-size: 40px;
+    }
+
+    .quote p {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .web-services p {
+        font-size: 18px;
+    }
+
+    .large-text span {
+        font-size: 15px;
+    }
+
+    .web-services p {
+        font-size: 13px;
+    }
+
+    .service-item {
+        width: 45%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .service-item h5{
+        width: 100%;
+    }
+
+    .references .img-references{
+        flex-wrap: wrap;
+    }
+
+    .references .img-references img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .process{
+        text-align: center;
+    }
+
+    .process-steps{
+        justify-content: center;
+    }
+
+    .process-text, .process-steps {
+        width: 100%;
+    }
+
+    .process-text{
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .step{
+        text-align: center;
+    }
+
+    .contact-us{
+        text-align: center;
+    }
+
+    .contact-us .contact-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-container h4 {
+        width: 100%;
+    }
+
+    .contact-btn {
+        margin-top: 20px;
+    }
+
+    .section-img{
+        height: 500px;
+    }
+
+    .section-img img{
+        object-fit: cover;
+    }
+
+    .sub-section-container {
+        width: 100%;
+        float: left;
+    }
+
+    .team-items{
+        justify-content: center;
+    }
+
+    .team-item span{
+        width: 100%;
+    }
+
+    .team-item {
+        width: 40%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .team-item img{
+        width: 70%;
+        min-width: 150px;
+    }
+
+    .fq-items {
+        width: 80%;
+        color: black;
+    }
+
+    .sub-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub-footer nav {
+        width: 50%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .link-container{
+        padding: 0;
+    }
+
+    .sub-footer-container .links-media {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-footer-container .links-media {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fq-item .logo {
+        margin-right: 0px;
+    }
+
+    .big-text {
+        padding: 70px 0;
+    }
+
+    .large-text {
+        padding: 150px 0;
+        padding-top: 70px;
+    }
+
+    .web-services {
+        padding: 150px 0;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .sub-web-services .dogs-img {
+        margin-top: -45%;
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+
+    .service-item {
+        width: 80%;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .sub-web-services .dogs-img {
+        margin-top: -52%;
+        width: 90%;
+    }
+
+    .sub-footer nav {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .fq-item {
+        flex-wrap: wrap;
+    }
+
+    .fq-item .logo {
+        width: 100%;
+       
+        justify-content: center;
+    }
+
+    .login-container .login-title {
+        justify-content: center; 
+    }
+
+    .rating{
+        width: 100%;
+    }
+
+    .home-contact-btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .schedule-btn {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .login-container form input[type="text"], .login-container form input[type="number"] {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 410px){
+
+    sub-web-services .dogs-img {
+        margin-top: -120%;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .team-item {
+        width: 70%;
+    }
+
+    .section-text {
+        padding: 20px;
+    }
+
+    .secondary-title {
+        font-size: 30px;
+    }
+}
